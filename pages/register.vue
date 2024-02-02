@@ -29,7 +29,6 @@
   
     console.log('Registering the data', userData);
   
-    // Store user registration data
     loginStore.storeUser(userData);
   };
   </script>

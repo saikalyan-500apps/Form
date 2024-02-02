@@ -4,7 +4,7 @@
   
       <!-- form fields -->
       <div v-for="(field, index) in fields" :key="index">
-        <label>{{ field.label }} - {{ c_code }}</label>
+        <label :for="field.label">{{ field.label }} - {{ c_code }}</label>
         <input :type="field.inputfield" v-model="field.value"/>
       </div>
   

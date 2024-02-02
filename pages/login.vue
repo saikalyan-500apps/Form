@@ -25,7 +25,7 @@
       loginStore.setPassword(formData.Password);
   
       // Check login credentials
-      const loggedInUser = loginStore.checkLogin();
+      const loggedInUser = loginStore.checkLogin(formData.Username, formData.Password);
   
       console.log('Registered users:', loginStore.registeredUser_data);
   
