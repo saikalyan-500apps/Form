@@ -1,5 +1,5 @@
 <template>
-
+    <MovieComponent/>
 </template>
 
 <script setup>

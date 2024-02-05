@@ -1,3 +1,4 @@
+<!-- components/FormComponent -->
 <template>
     <div>
       <p>{{ heading }}</p>

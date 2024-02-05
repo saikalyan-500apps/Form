@@ -47,7 +47,21 @@ export const useFormStore = defineStore('form', () => {
         Form_button : "search"
       }
     ]
+
   return { register_form , login_form, captcha_form, Weather_Api_form}
+})
+
+export const useRouteStore = defineStore('route', () => {
+  const route_form = [
+    {id:1,route:'/',name:'Home'},
+    {id:2,route:'/login',name:'Login'},
+    {id:3,route:'/register',name:'Register'},
+    {id:4,route:'/captcha',name:'Captcha'},
+    {id:5,route:'/sample',name:'Sample'},
+    {id:6,route:'/example',name:'Example'},
+    {id:7,route:'/weather',name:'Weather'}
+  ]
+  return {route_form}
 })
 
 
