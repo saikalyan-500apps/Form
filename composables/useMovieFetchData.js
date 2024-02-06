@@ -1,5 +1,5 @@
 // composables/useMovieFetchData.js
-import { useFetch } from "#app";
+import { useFetch } from "nuxt/app";
 
 export function useMovieFetchData(){
     const response = useFetch('https://jsonplaceholder.typicode.com/users');
